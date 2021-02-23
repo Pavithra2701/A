@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+<parameter name="username" value="PavithraPrabhu"></parameter>
+<parameter name="password" value="prabhu2701"></parameter>
+<parameter name="checkin" value="08/02/2021"></parameter>
+<parameter name="checkout" value="12/02/2021"></parameter>
+<parameter name="fname" value="pavithra"></parameter>
+<parameter name="lname" value="sivakumar"></parameter>
+<parameter name="address" value="nabsxhgzuyfdhuggfrhxdgysrh"></parameter>
+<parameter name="ccnum" value="1234567891234567"></parameter>
+<parameter name="ccv" value="123"></parameter>
+    <classes>
+      <class name="org.xml.AdactinBookings"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

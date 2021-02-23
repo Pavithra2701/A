@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="chromeTest(failed)">
+    <parameter name="browserName" value="chrome"/>
+    <classes>
+      <class name="org.parallel.adactin.Sample">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="beforemethod"/>
+          <include name="aftermethod"/>
+          <include name="afterclass"/>
+          <include name="bookingTestng"/>
+        </methods>
+      </class> <!-- org.parallel.adactin.Sample -->
+    </classes>
+  </test> <!-- chromeTest(failed) -->
+  <test thread-count="5" name="firefoxTest(failed)">
+    <parameter name="browserName" value="firefox"/>
+    <classes>
+      <class name="org.parallel.adactin.Sample">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="beforemethod"/>
+          <include name="aftermethod"/>
+          <include name="afterclass"/>
+          <include name="bookingTestng"/>
+        </methods>
+      </class> <!-- org.parallel.adactin.Sample -->
+    </classes>
+  </test> <!-- firefoxTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
